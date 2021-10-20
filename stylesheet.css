@@ -1,0 +1,338 @@
+body{
+    margin:0;
+    background-color: #fff;
+    color: black;
+    font-size: 14px;
+    line-height: 1.6;
+    position:relative;
+    
+    left: 400px;
+    max-width: 60%;
+    /* border: 1px solid black; */
+}
+section
+{
+    padding: 4em 2em;
+    background-color: rgb(248, 245, 245);
+
+}
+h1,h2,h3{
+    line-height: 1.1;
+}
+.section_title
+{
+    font-size:24px;
+    font-weight:900;
+    color:#8b8888;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+    top: 160px;
+   
+}
+strong{
+    font-size:28px;
+    padding: 5px;
+    color: #131313;
+    font-weight:bold;
+    display:block;
+    position: relative;
+ 
+}
+
+.intro p{
+    font-size: 20px;
+    background-color:#16e0bd;
+    margin-bottom:10px;
+    text-align:center;
+    position: relative;
+    font-weight:bold;
+    top: 151px;
+    
+}
+.intro .profile{
+    
+    max-width:80%;
+     height:400px;
+     display:block;
+     left: 150px;
+     position:relative;
+ }
+
+
+/* this is for header */
+
+header{
+  margin: 1px;
+
+}
+.nav{
+    position:absolute;
+    /* background-color:#CDDC39; */
+    background-color: rgb(159, 183, 235);
+    height: 60px;
+    width:100%;
+    
+}
+.nav .nav-list
+{
+    position: relative;
+    left: 100px;
+     margin:0;
+    padding:10px;
+    display:flex;
+
+}
+.nav .nav-list .nav-item
+{
+       list-style:none;
+        margin:0 15px;
+        transition:0.5s;
+        padding-left: 20px;
+        
+}
+
+
+.nav-list .nav-item .nav-link
+     {
+
+      display:block;
+      position : relative;
+      text-decoration:none;
+       padding:5px;
+       font-size:22px;
+       color:#fff;
+       text-transform:uppercase;
+        transition:0.3s;
+       }
+
+  nav-list:hover .nav-item .nav-link
+         {
+           transform: scale(1.5);
+           opacity: .2;  
+           filter: blur(5px);  
+            text-shadow:0 0 black;   
+          }   
+
+
+      .nav-list .nav-item .nav-link:hover
+         {
+           
+           transform: scale(1.3);
+           opacity: 1; 
+          filter: blur(0);   
+          } 
+ 
+
+         
+          /* services */
+
+          .My_Services
+          {
+              background-image: url(https://wallpapertag.com/wallpaper/full/7/3/2/154689-cool-coding-background-1920x1280-for-tablet.jpg);
+              background-size: cover;
+              background-blend-mode:multiply;
+              color:#fff;
+              text-align: center;
+              
+          }
+          .My_Services .section_title_Service
+          {
+              font-size: 30px;
+              color:#16e0bd;
+              text-shadow:#fff;
+              
+          }
+          .My_Services .service
+          {
+                
+                max-width: 500px;
+                margin: 10px auto; 
+                padding-left: 20px;  
+                display:flex;   
+          }
+          .My_Services .service h3{
+              font-size: 24px;
+              font-weight: 200;
+              position: relative;
+              left: 100px; 
+
+          }
+          .My_Services .service p{
+            color:#f7f1f1;
+            position: relative;
+            font-size: 20px;
+            font-weight: 200;
+            top: 60px;
+            left: -10px;
+          }
+          /* about me */
+          .about_me{
+            text-align: center;
+            background-color: rgb(248, 245, 245);
+          height:600px;
+          }
+          .about_me .profile
+          {
+            max-width:80%;
+            height:400px;
+            display:block;
+            /* left: 0px; */
+            position:relative;
+            float: right;
+          }
+          .about_me .section_title_about
+          {
+            font-size: 32px;
+            font-weight:bold;
+            color:#000;
+            text-shadow:#000;
+          }
+          .about_me .section_subtitle_about
+          {
+            font-size: 20px;
+            background-color:#16e0bd;
+            margin-bottom:10px;
+            position: relative;
+            font-weight:bold;
+            
+          }
+         .about_me .about_body p
+         {
+            font-size: 20px;
+            font-weight: 200;
+            text-align: left;
+         }
+         .about_me .getcv
+         {
+    
+          /* display:block; */
+          position : relative;
+          text-decoration:none;
+           padding:5px;
+           cursor: pointer;
+           font-size:18px;
+           color:black;
+           background-color:#16e0bd;
+           text-transform:uppercase;
+            transition:0.3s;
+            border-radius: 10px;
+            border: #16e0bd;
+            
+           }
+           .getcv:hover 
+           {
+             transform: scale(1.5);
+             opacity: .2;  
+             filter: blur(5px);  
+              text-shadow:0 0 black;   
+            } 
+          
+       .about_me .getcv:hover
+      {
+        
+        transform: scale(1.3);
+        outline: none;
+        opacity: 1; 
+       filter: blur(0);   
+       
+       }  
+
+       /* My skill */
+       .my-work
+       {
+           text-align: center;
+           background-color: rgb(248, 245, 245);
+           top: 200px;
+           margin-top:0;
+       }
+       .my-work .section-title
+       {
+        font-size: 32px;
+        font-weight:bold;
+        color:#000;
+        text-align: center;
+        text-shadow:#fff;
+       }
+       .my-work .section_subtitle
+       {
+        font-size: 20px;
+        font-weight: 200;
+       }
+
+.my-work .list .listitem
+{
+       list-style:none;
+        margin:0 15px;
+        transition:0.5s;
+        padding-left: 20px;
+        font-size: 20px;
+        color: #303030;
+        font-weight: 200;     
+}
+list:hover .listitem
+         {
+           transform: scale(1.5);
+           opacity: .2;  
+           filter: blur(5px);  
+            text-shadow:0 0 black;   
+          }   
+      .list .listitem:hover
+         {
+           
+           transform: scale(1.5);
+           opacity: 1; 
+          filter: blur(0);   
+          } 
+
+          /* footer */
+        footer
+        {
+          padding: 10px;
+          text-align: center;
+          /* background-color: rgb(248, 245, 245); */
+          background-color: #303030;
+        }
+        footer .contact_me .contactDetail
+        {
+          font-size: 32px;
+          font-weight:bold;
+          color:#fff;
+          text-shadow:#000;
+        }
+   footer .social_list .social_item 
+{
+       list-style:none;
+        margin:0 15px;
+        transition:0.5s;
+        padding-left: 20px;
+        font-size: 20px;
+        font-weight: 200;  
+        text-decoration: none;   
+}
+footer .social_list .social_item .fa{
+   margin-left: 10px;
+   height: 50px;
+   width: 50px;
+   color: #16e0bd;;
+}
+footer .social_list .social_item a
+{
+  color:#16e0bd;
+}
+
+.social_list:hover .social_item .fa a
+         {
+           transform: scale(1.5);
+           opacity: .2;  
+           filter: blur(5px);  
+            text-shadow:0 0 black;   
+          }   
+          .social_list .social_item:hover
+         {
+           
+           transform: scale(1.5);
+           opacity: 1; 
+          filter: blur(0);   
+          } 
