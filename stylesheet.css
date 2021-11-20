@@ -1,13 +1,11 @@
 body{
-    margin:0;
+    margin:auto;
     background-color: #fff;
     color: black;
     font-size: 14px;
-    line-height: 1.6;
-    position:relative;
-    
+    line-height: 1.6;  
     left: 400px;
-    max-width: 60%;
+    max-width: 80%;
     /* border: 1px solid black; */
 }
 section
@@ -59,7 +57,19 @@ strong{
      left: 150px;
      position:relative;
  }
+ @media screen and (max-width: 1402px) {
 
+  .section_title
+{
+  top: 16px;
+}
+
+
+.intro p{
+  
+  top: 5px;   
+}
+}
 
 /* this is for header */
 
@@ -72,7 +82,7 @@ header{
     /* background-color:#CDDC39; */
     background-color: rgb(159, 183, 235);
     height: 60px;
-    width:100%;
+    width:80%;
     
 }
 .nav .nav-list
